@@ -1,0 +1,274 @@
+* SPICE3 file created from bit1_alu.ext - technology: scmos
+.include ./level3.txt
+.option scale=0.055u
+
+* SPICE3 file created from bit1_alu.ext - technology: scmos
+
+.option scale=0.055u
+
+M1000 vss Binv a_224_n42# vss cmosn w=6 l=2
++  ad=1687 pd=806 as=42 ps=26
+M1001 a_13_n59# a_33_n68# a_28_n64# vdd cmosp w=21 l=2
++  ad=117 pd=56 as=105 ps=52
+M1002 a_94_n24# A a_85_n24# vss cmosn w=14 l=2
++  ad=112 pd=44 as=204 ps=92
+M1003 a_238_16# b a_253_53# vdd cmosp w=18 l=2
++  ad=102 pd=50 as=90 ps=46
+M1004 a_183_n61# a1 vdd vdd cmosp w=25 l=2
++  ad=125 pd=60 as=4006 ps=1316
+M1005 a_n26_n56# z a_n36_n56# vdd cmosp w=12 l=2
++  ad=60 pd=34 as=96 ps=40
+M1006 a_243_n64# Bn vdd vdd cmosp w=16 l=2
++  ad=80 pd=42 as=0 ps=0
+M1007 vss b a_260_n18# vss cmosn w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1008 vss b Bn vss cmosn w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1009 vss a0 a_75_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=30 ps=22
+M1010 vdd s1 a_20_50# vdd cmosp w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1011 COUT a_n36_n56# vdd vdd cmosp w=12 l=2
++  ad=72 pd=38 as=0 ps=0
+M1012 y0 a_65_17# vdd vdd cmosp w=12 l=2
++  ad=72 pd=38 as=0 ps=0
+M1013 b_test a_250_n64# vdd vdd cmosp w=18 l=2
++  ad=102 pd=50 as=0 ps=0
+M1014 vdd a_52_n33# a_33_n68# vdd cmosp w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1015 a_67_n24# b_test vss vss cmosn w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1016 a_65_17# s0 a_58_17# vss cmosn w=6 l=2
++  ad=48 pd=28 as=30 ps=22
+M1017 vss a_13_n59# in2 vss cmosn w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1018 a_186_17# z2 vss vss cmosn w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1019 a_75_51# s0 a_65_17# vdd cmosp w=12 l=2
++  ad=60 pd=34 as=96 ps=40
+M1020 vdd s0 a_39_17# vdd cmosp w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1021 vss b a_238_16# vss cmosn w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1022 vss y1 a_139_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=30 ps=22
+M1023 vdd a1 a_141_n33# vdd cmosp w=28 l=2
++  ad=0 pd=0 as=224 ps=72
+M1024 vss s0 a_39_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1025 vss a_141_n33# a_174_n24# vss cmosn w=10 l=2
++  ad=0 pd=0 as=204 ps=92
+M1026 a_n43_n56# a vdd vdd cmosp w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1027 a_58_51# a1 vdd vdd cmosp w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1028 a_109_26# a_127_12# a_122_17# vss cmosn w=6 l=2
++  ad=48 pd=28 as=30 ps=22
+M1029 a_279_16# b a_293_14# vss cmosn w=9 l=2
++  ad=57 pd=32 as=45 ps=28
+M1030 vss a_109_26# out vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1031 a_183_n24# a_124_n64# a_183_n61# vdd cmosp w=25 l=2
++  ad=164 pd=66 as=0 ps=0
+M1032 a_139_51# a_127_12# a_109_26# vdd cmosp w=12 l=2
++  ad=60 pd=34 as=96 ps=40
+M1033 a_122_51# y0 vdd vdd cmosp w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1034 a_141_n33# a1 a_156_n24# vss cmosn w=20 l=2
++  ad=112 pd=54 as=100 ps=50
+M1035 a_250_n64# a_224_n42# a_243_n64# vdd cmosp w=16 l=2
++  ad=128 pd=48 as=0 ps=0
+M1036 a_n36_n56# z a_n43_n16# vss cmosn w=6 l=2
++  ad=48 pd=28 as=30 ps=22
+M1037 a_191_12# s0 vdd vdd cmosp w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1038 a_191_12# s0 vss vss cmosn w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1039 a_174_n24# a_124_n64# a_183_n24# vss cmosn w=14 l=2
++  ad=0 pd=0 as=112 ps=44
+M1040 a_203_17# s0 a_173_26# vss cmosn w=6 l=2
++  ad=30 pd=22 as=48 ps=28
+M1041 a_173_26# a_191_12# a_186_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 vdd a_52_n33# a_94_n24# vdd cmosp w=13 l=2
++  ad=0 pd=0 as=164 ps=66
+M1043 a_94_n61# A vdd vdd cmosp w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1044 vss in2 a_n26_n16# vss cmosn w=6 l=2
++  ad=0 pd=0 as=30 ps=22
+M1045 vdd a0 a_75_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 vss a_173_26# y1 vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1047 vss a_141_n33# a vss cmosn w=14 l=2
++  ad=0 pd=0 as=84 ps=42
+M1048 a_65_17# a_39_17# a_58_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 a_238_16# a vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 vdd b a_260_n64# vdd cmosp w=16 l=2
++  ad=0 pd=0 as=80 ps=42
+M1051 vdd z a_n62_n42# vdd cmosp w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1052 vdd a_238_16# z2 vdd cmosp w=12 l=2
++  ad=0 pd=0 as=72 ps=38
+M1053 a_186_51# z2 vdd vdd cmosp w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1054 vss z a_n62_n42# vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1055 vdd y1 a_139_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 b_test a_250_n64# vss vss cmosn w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1057 vdd b a_279_16# vdd cmosp w=10 l=2
++  ad=0 pd=0 as=80 ps=36
+M1058 a_141_n33# a_124_n64# vdd vdd cmosp w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 a_109_26# s1 a_122_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 vdd a_109_26# out vdd cmosp w=12 l=2
++  ad=0 pd=0 as=72 ps=38
+M1061 a_28_n64# a vdd vdd cmosp w=21 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 vdd A a_52_n33# vdd cmosp w=28 l=2
++  ad=0 pd=0 as=224 ps=72
+M1063 vss a_33_n68# a_13_n59# vss cmosn w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1064 a_94_n24# b_test a_94_n61# vdd cmosp w=25 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 a_124_n64# a_94_n24# vss vss cmosn w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1066 a_n26_n16# a_n62_n42# a_n36_n56# vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 a_260_n18# a_224_n42# a_250_n64# vss cmosn w=8 l=2
++  ad=0 pd=0 as=64 ps=32
+M1068 a_52_n33# A a_67_n24# vss cmosn w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1069 vss a3 a_203_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 vss s1 z vss cmosn w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1071 a_124_n64# a_94_n24# vdd vdd cmosp w=25 l=2
++  ad=151 pd=64 as=0 ps=0
+M1072 a_203_51# a_191_12# a_173_26# vdd cmosp w=12 l=2
++  ad=60 pd=34 as=96 ps=40
+M1073 a_173_26# s0 a_186_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 a_183_n24# a1 a_174_n24# vss cmosn w=14 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 COUT a_n36_n56# vss vss cmosn w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1076 vss a_238_16# z2 vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1077 vdd a_173_26# y1 vdd cmosp w=12 l=2
++  ad=0 pd=0 as=72 ps=38
+M1078 a_243_n18# Bn vss vss cmosn w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1079 a_279_16# a vdd vdd cmosp w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 a_n36_n56# a_n62_n42# a_n43_n56# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1081 a_n43_n16# a vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 a_253_53# a vdd vdd cmosp w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 vss a_52_n33# a_33_n68# vss cmosn w=14 l=2
++  ad=0 pd=0 as=84 ps=42
+M1084 vdd a_141_n33# a vdd cmosp w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1085 a_156_n24# a_124_n64# vss vss cmosn w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 a_85_n24# b_test a_94_n24# vss cmosn w=14 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 vdd in2 a_n26_n56# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 vss a_279_16# a3 vss cmosn w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1089 vdd b Bn vdd cmosp w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1090 a_52_n33# b_test vdd vdd cmosp w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 y0 a_65_17# vss vss cmosn w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1092 a_13_n59# a vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 z s0 vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 vss a_52_n33# a_85_n24# vss cmosn w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 a_75_17# a_39_17# a_65_17# vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 a0 a_183_n24# vss vss cmosn w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1097 vdd a_13_n59# in2 vdd cmosp w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1098 a_127_12# s1 vdd vdd cmosp w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1099 vdd a3 a_203_51# vdd cmosp w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 a_20_50# s0 z vdd cmosp w=20 l=2
++  ad=0 pd=0 as=112 ps=54
+M1101 a_250_n64# Binv a_243_n18# vss cmosn w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 a_127_12# s1 vss vss cmosn w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1103 vdd a_141_n33# a_183_n24# vdd cmosp w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 a_58_17# a1 vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 a0 a_183_n24# vdd vdd cmosp w=25 l=2
++  ad=151 pd=64 as=0 ps=0
+M1106 a_139_17# s1 a_109_26# vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 a_260_n64# Binv a_250_n64# vdd cmosp w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 a_122_17# y0 vss vss cmosn w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1109 vdd Binv a_224_n42# vdd cmosp w=8 l=2
++  ad=0 pd=0 as=52 ps=30
+M1110 a_293_14# a vss vss cmosn w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 vdd a_279_16# a3 vdd cmosp w=12 l=2
++  ad=0 pd=0 as=72 ps=38
+
+
+
+
+v_dd vdd 0 3.3
+v_ss vss 0 0
+v_cin Cin 0 pulse ( 0 3.3 0.01n 0.05n 0.05n 1n 6n)
+v_s0 s0 0 pulse ( 0 3.3 0.01n 0.05n 0.05n 3n 6n)
+v_s1 s1 0 pulse ( 0 3.3 1n 0.05n 0.05n 2n 6n)
+v_a A 0 pulse ( 0 3.3 0.01n 0.05n 0.05n 3n 6n)
+v_b B 0 pulse ( 0 3.3 0.01n 0.05n 0.05n 2n 6n)
+
+.control
+tran 0.01 20n
+
+
+meas tran out_max MAX v(out) from= 0.1n to=10n
+meas tran out_min MIN v(out) from= 1n to=4n
+
+let v_10 = out_min + 0.1*(out_max-out_min)
+let v_90 = out_min + 0.9*(out_max-out_min)
+
+meas tran tr TRIG v(out) VAL=v_10 RISE=1 TARG v(out) VAL=v_90 RISE=1
+meas tran tf TRIG v(out) VAL=v_90 FALL=1 TARG v(out) VAL=v_10 FALL=1
+
+let v_50 = out_min + 0.5*(out_max-out_min)
+meas tran tphh TRIG A VAL = 1.65 RISE=1 TARG v(COUT) VAL=v_50 RISE=1
+meas tran tpll TRIG A VAL = 1.65 FALL=1 TARG v(COUT) VAL=v_50 FALL=1
+
+let tp = 0.5*(tphh+tpll)
+print tp
+
+let p=3.3*-v_dd#branch
+meas tran energy integ p from=0n to=20n
+let power=energy/20n
+print power
+
+
+plot tran1.s0 tran1.s1 +5 tran1.Cin +10 tran1.A +15 tran1.B +20 tran1.out +25 tran1.COUT +30
+plot -tran1.v_dd#branch p
+.endc
+.end
